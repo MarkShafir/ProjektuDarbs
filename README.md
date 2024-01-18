@@ -9,7 +9,7 @@ selenium: Šī bibliotēka nodrošina rīkus tīmekļa pārlūkprogrammas automa
 
 webdriver: Šī ir selenium daļa, kas nodrošina saskarni mijiedarbībai ar dažādām pārlūkprogrammām. Šajā gadījumā kods ir vērsts uz darbu ar pārlūku Chrome.
 
-# Краткое описание кода
+# Īss koda apraksts
 webdriver.Chrome(service=service, options=option): Tiek izveidots Chrome tīmekļa draivera gadījums, izmantojot opcijas un pakalpojumu.
   
 driver.get('https://www.nvidia.com/Download/index.aspx'): Pārlūkprogramma pāriet uz norādīto Nvidia tīmekļa vietni.
